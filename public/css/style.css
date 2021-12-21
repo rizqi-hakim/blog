@@ -1,0 +1,55 @@
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-registration input {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.form-floating i {
+  position: absolute;
+  display: none;
+  top: 20px;
+  right: 10px;
+}
+
+.form-floating small {
+  display: none;
+  margin-bottom: 10px;
+  color: #e74c3c;
+}
+
+.form-floating.success input {
+	border-color: #2ecc71;
+}
+
+.form-floating.error input {
+	border-color: #e74c3c;
+}
+
+.form-floating.success i.bi-check-circle-fill {
+	color: #2ecc71;
+	display: block;
+}
+
+.form-floating.error i.bi-exclamation-circle-fill {
+	color: #e74c3c;
+	display: block;
+}
+
+.form-floating.error small {
+	display: block;
+}
